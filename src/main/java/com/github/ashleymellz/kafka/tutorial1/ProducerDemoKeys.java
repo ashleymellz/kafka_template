@@ -13,7 +13,7 @@ public class ProducerDemoKeys {
         // create a logger for my class
         final Logger logger = LoggerFactory.getLogger(ProducerDemoKeys.class);
 
-        String bootstrapServers = "18.222.239.54:9092";
+        String bootstrapServers = "<AWS_HOST>:9092";
 
         // create Producer properties
         // Should be referencing https://kafka.apache.org/documentation/
