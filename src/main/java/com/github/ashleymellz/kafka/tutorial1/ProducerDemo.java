@@ -10,7 +10,7 @@ import java.util.Properties;
 
 public class ProducerDemo {
     public static void main(String[] args) {
-        String bootstrapServers = "18.222.239.54:9092";
+        String bootstrapServers = "<AWS_HOST>:9092";
 
         // create Producer properties
         // Should be referencing https://kafka.apache.org/documentation/
